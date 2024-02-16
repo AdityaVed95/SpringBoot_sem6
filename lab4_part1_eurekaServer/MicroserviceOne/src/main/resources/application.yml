@@ -1,0 +1,12 @@
+# application.yml for Microservices one and two spring:
+spring:
+    application:
+        name: microservice-one # or microservice-two
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka/
+            
+server:
+    port: 8081
